@@ -1,0 +1,20 @@
+sk:
+  AjaxContactForm:
+    CONTACTUS: 'Kontaktujte nás'
+    CONTACTFORM: 'Kontaktný formulár'
+    SHOWFORM: 'Zobraziť kontaktný formulár'
+    SHOWCONTACTS: 'Zobraziť kontakty'
+    CONTACTS: 'Kontakty'
+    CONTACTFORMSUBJECT: 'Vyplneny kontaktny formular na stranke'
+    NAME: 'Meno'
+    EMAIL: 'E-mail'
+    QUESTION: 'Otázka'
+    SUCCESSMESSAGE: 'Formulár odoslaný úspešne. Budeme vás kontaktovať'
+  ContactForm:
+    SEND: 'Odoslať'
+    INTROTEXT: 'Bol vyplnený formulár na stránke.'
+    FIELDISREQUIRED: 'Pole "%s" je povinné!'
+    ANTISPAM_Q1: 'Antispam: koľko je 29 mínus Sedem (uveďte číslo)'
+    ANTISPAM_A1: '22'
+    ANTISPAM_Q2: 'Antispam: koľko je 55 mínus Štyri (uveďte číslo)'
+    ANTISPAM_A2: '51'

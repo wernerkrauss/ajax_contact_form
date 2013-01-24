@@ -1,0 +1,1 @@
+<a href="$ContactFormPage.Link" class="button" data-reveal-id="revealContactForm"><% _t("AjaxContactForm.CONTACTUS","Contact us") %></a>
