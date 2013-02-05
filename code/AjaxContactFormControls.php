@@ -1,6 +1,8 @@
 <?php
 
 class AjaxContactFormControls extends DataExtension {
+
+	public static $allowed_actions = array("ContactForm");
 		/**
 	 * Handles the submission of the contact form. Checks spam and builds and sends the email
 	 *
