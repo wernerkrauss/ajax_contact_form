@@ -1,4 +1,4 @@
 <?php
 
-Object::add_extension('Page_Controller','AjaxContactFormControls');
-Object::add_extension('Page','MyContactFormExtension');
+Page_Controller::add_extension('AjaxContactFormControls');
+Page::add_extension('MyContactFormExtension');
