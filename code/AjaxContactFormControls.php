@@ -107,7 +107,10 @@ class AjaxContactFormControls extends DataExtension {
 			'Domain' => Director::protocolAndHost()
 		);
 
+		Requirements::clear();
 		$html = $this->owner->customise($messageData)->renderWith($emailTemplate);
+		Requirements::restore();
+
 
 		if($proxy->isPostmark()) {
 			require_once(Director::baseFolder()."/contact_form/code/thirdparty/postmark/Postmark.php");
