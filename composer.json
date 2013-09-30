@@ -2,6 +2,7 @@
 	"name": "silvermax/ajax_contact_form",
 	"description": "SilverStripoe Ajax contact form extension of bluehousegroup/contact_form module",
 	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "contact", "form", "ajax"],
 	"authors": [
 	{
@@ -9,21 +10,6 @@
 		"email": "pali@silvermax.sk"
 	}
 	],
-	"repositories": [
-		{
-            "type": "package",
-            "package": {
-                "name": "bluehousegroup/contact_form",
-                "version": "master",
-                "type": "silverstripe-module",
-                "source": {
-                    "url": "git://github.com/bluehousegroup/silverstripe-contact-form.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        }
-    	],
 	"require":
 	{
 		"silverstripe/framework": "3.1.*",
