@@ -1,0 +1,22 @@
+de:
+  AjaxContactForm:
+    CONTACTUS: 'Kontakt'
+    CONTACTFORM: 'Kontaktformular'
+    SHOWFORM: 'Kontaktformular anzeigen'
+    SHOWCONTACTS: 'Kontakte anzeigen'
+    CONTACTS: 'Kontakte'
+    CONTACTFORMSUBJECT: 'Neue Kontaktanfrage'
+    NAME: 'Name'
+    EMAIL: 'E-Mail'
+    QUESTION: 'Anfrage'
+    SUCCESSMESSAGE: 'Vielen Dank für Ihre Anfrage. Wir werden Sie baldmöglichst kontaktieren'
+    SENDING: 'Bitte warten...'
+  ContactForm:
+    SEND: 'Senden'
+    INTROTEXT: 'Bitte füllen Sie alle Felder aus'
+    FIELDISREQUIRED: '"%s" ist ein Pflichtfeld!'
+    ANTISPAM_Q1: 'Antispam: Was ist 3 + sieben (Zahl einfügen)?'
+    ANTISPAM_A1: '10'
+    ANTISPAM_Q2: 'Antispam: wieviel ist 55 minus vier (Zahl einfügen)?'
+    ANTISPAM_A2: '51'
+    SIMPLEQUESTIONFAIL: 'Bitte geben Sie die richtige Antwort für das Antispam-Feld'
