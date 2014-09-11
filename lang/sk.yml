@@ -10,6 +10,7 @@ sk:
     EMAIL: 'E-mail'
     QUESTION: 'Otázka'
     SUCCESSMESSAGE: 'Formulár odoslaný úspešne. Budeme vás kontaktovať'
+    SENDING: 'Odosielam...'
   ContactForm:
     SEND: 'Odoslať'
     INTROTEXT: 'Bol vyplnený formulár na stránke.'

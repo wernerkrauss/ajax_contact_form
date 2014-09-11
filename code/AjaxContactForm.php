@@ -8,6 +8,8 @@ class AjaxContactForm extends ContactForm {
 	 * @return string
 	 */
 	protected function getValidationJS() {
+		$sendingMsg = _t('AjaxContactForm.SENDING','Sending...');
+		$antispamFailMsg = _t('ContactForm.SIMPLEQUESTIONFAIL','Please enter a valid response to the spam question.');
 		$js = "
 		(function(\$) {
 		\$(function() {
@@ -43,11 +45,11 @@ class AjaxContactForm extends ContactForm {
 				   //form.submit();
 				   var sbutton = $(form).find('.Actions input');
 				   var currentValue = sbutton.prop('value');
-				   sbutton.addClass('secondary').prop('value', 'Odosielam...');
+				   sbutton.addClass('secondary').prop('value', '$sendingMsg');
 				   	event.preventDefault();
 					$.post($(form).attr('action'), $(form).serialize(), function(data){
 						if (data == 'false') {
-							$(form).prepend(('<div class=\"alert-box alert\">Vyplnili ste správne antispam otázku?<a href=\'\' class=\'close\'>&times;</a></div>'));
+							$(form).prepend(('<div class=\"alert-box alert\">$antispamFailMsg<a href=\'\' class=\'close\'>&times;</a></div>'));
 							sbutton.removeClass('secondary').prop('value', currentValue);
 						} else {
 							$(form).html(('<div class=\"alert-box success\">' + data + '</div>'));
